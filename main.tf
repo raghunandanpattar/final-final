@@ -43,3 +43,9 @@ resource "aws_instance" "my-new-aws_instance" {
       Name = "pipeline_created_instance" 
   }
 }
+
+
+resource "aws_s3_bucket" "raghunandanpattar184231015" {
+    bucket = "raghunandanpattar184231015"
+    acl = "private"
+}
